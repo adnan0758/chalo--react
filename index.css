@@ -1,3 +1,45 @@
-#root h1{
-    background-color: aqua;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid black;
+}
+.logo-container img{
+    width:100px;
+    padding-top: 17px;
+}
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+
+}
+.nav-items ul li{
+    padding:15px;
+    margin: 15px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    margin:5px;
+    width: 200px;
+    padding: 5px;
+    height: 400px;
+    background-color: #f0f0f0;
+    
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.res-logo img{
+    width: 100%;
+    
+}
+.search{
+    padding: 10px;
+}
+.h3tag{
+   padding-top: 1150px;
 }
