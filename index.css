@@ -21,11 +21,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-.res-card{
+
+.res-card {
     margin:5px;
     width: 200px;
     padding: 5px;
-    height: 400px;
     background-color: #f0f0f0;
     
 }
@@ -35,11 +35,14 @@
 }
 .res-logo img{
     width: 100%;
-    
 }
 .search{
     padding: 10px;
 }
 .h3tag{
    padding-top: 1150px;
+}
+.filter-btn{
+    margin: 5px;
+    cursor: pointer;
 }
